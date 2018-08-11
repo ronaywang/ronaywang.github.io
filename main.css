@@ -49,6 +49,22 @@ body {
   color: white;
 }
 
+.carousel-pen { 
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  letter-spacing: 10px;
+  color: white;
+}
+
+.carousel-pen-sub {
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  letter-spacing: 10px;
+  color: white;
+  
+  
 .l {
   color: white;
   font-size: 125px;
