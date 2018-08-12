@@ -248,6 +248,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54e5ff', end
 
 #about-1, #about-2, #about-3 {
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .propic {
