@@ -269,7 +269,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54e5ff', end
   letter-spacing: 3px;
   line-height: 40px;
   color: white;
-  margin: 20px;
+  margin: 150px;
 }
 
 #about-1 {
@@ -323,7 +323,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54e5ff', end
 
 .bar {
   border: 0.5px solid white;
-  background-color: white
 
   height: 15px;
   margin-left: 20px;
