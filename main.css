@@ -324,6 +324,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d1063', end
 
 .bar {
   border: 0.5px solid white;
+  background-color: white
 
   height: 15px;
   margin-left: 20px;
