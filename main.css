@@ -42,7 +42,7 @@ body {
 }
 
 .h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 35px;
   letter-spacing: 10px;
@@ -50,7 +50,7 @@ body {
 }
 
 #carouselPen { 
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 35px;
   letter-spacing: 10px;
@@ -58,7 +58,7 @@ body {
 }
 
 #carouselPenSub {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 200;
   font-size: 25px;
   letter-spacing: 10px;
@@ -69,14 +69,14 @@ body {
 .l {
   color: white;
   font-size: 125px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 100;
   letter-spacing: 20px;
 }
 
 .item {
   color: white;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 11px;
   letter-spacing: 6px;
@@ -240,7 +240,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d1063', end
 }
 
 .about-title, .loading {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 100;
   font-size: 60px;
   letter-spacing: 5px;
@@ -293,7 +293,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d1063', end
 }
 
 .about-skills {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 100;
   font-size: 20px;
   letter-spacing: 3px;
@@ -302,7 +302,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d1063', end
 }
 
 .about-skills-title {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 30px;
   letter-spacing: 3px;
@@ -458,7 +458,7 @@ a.loading {
           line-height: 20px;
           letter-spacing: 1px;
           text-align: justify;
-          font-family: 'Lato', sans-serif;
+          font-family: 'Raleway', sans-serif;
           font-weight: 100;
         }
 
@@ -510,7 +510,7 @@ a.loading {
   font-size: 15px;
   letter-spacing: 0.5px;
   font-weight: 300;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding: 20px;
   text-align: center;
 }
