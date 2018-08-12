@@ -282,6 +282,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54e5ff', end
 .line {
   text-decoration: line-through;
   margin: 0 8px;
+  display: inline;
 }
 
 .line-container {
