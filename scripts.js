@@ -48,32 +48,7 @@ $(document).ready(function(){
 
 });
 
-// $(function topButton(){
-//   $(window).scroll($.throttle(500, function () {
-//     if (window.scrollY > 60) {
-//       $('#backToTop').fadeIn('slow');
-//     } else {
-//       $('#backToTop').fadeOut('slow');
-//     }
-//   }));
-// })
 
-// $(function scrollTop() {
-//   $('#backToTop').on('click', function(){
-//     // $("html, body").animate({ scrollTop: 0 }, 500);
-//     // return;
-//     $.scrollify.move("#home");
-//   });
-// })
-//
-// $(function scroll() {
-//   $.scrollify({
-//     section : ".section",
-//     sectionName : "section-name",
-//   });
-// })
-
-// https://github.com/jlmakes/scrollreveal
 
 window.sr = ScrollReveal({
   duration: 500,
