@@ -1,3 +1,20 @@
+:root {
+  --primary1: #1D1D35;
+  --primary2: #222549;
+  --primary3: #3A3F78;
+  --primary4: #5053A7;
+  --primary5: #8385C3;
+  --primary6: #C1C2E1;
+  --primary7: #F1F1F9;
+
+  --neutral1: #212934;
+  --neutral2: #5F6B7A;
+  --neutral3: #8894A7;
+  --neutral4: #B8C4CE;
+  --neutral5: #CFD6DE;
+  --neutral6: #E1E7EC;
+  --neutral7: #F8F9FA;
+}
 html {
   box-sizing: border-box;
 }
@@ -12,6 +29,7 @@ html, body {
   padding: 0;
   margin: 0;
   /* overflow: hidden; */
+  font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -28,51 +46,47 @@ body {
   width: 100%;
 }*/
 
-.homescreen {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  background-color: black;
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 120%;
+  color: var(--primary2);
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  z-index: 99;
 }
 
-.h1 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
-  font-size: 35px;
-  letter-spacing: 10px;
-  color: white;
+
+.NavBar-link {
+  margin: 2rem;
+  font-size: 100%;
+  color: var(--primary4);
+  font-weight: 500;
+  text-decoration: none;
 }
 
-#carouselPen { 
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
-  font-size: 35px;
-  letter-spacing: 10px;
-  color: white;
+.NavBar-link:hover {
+  opacity: 0.7;
+
 }
 
-#carouselPenSub {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 200;
-  font-size: 25px;
-  letter-spacing: 10px;
-  color: white;
+.NavBar{
+  padding: 1%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project-card{
+  width: 20px;
+  height: 20px;
+  padding: 0.5%;
+  background-color: pink;
+  border-radius: 0.5em;
+
+}
   
-}
-  
-.l {
-  color: white;
-  font-size: 125px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 100;
-  letter-spacing: 20px;
-}
+
 
 .item {
   color: white;
@@ -214,12 +228,13 @@ body {
 
 }
 
-#about {
+#about-container {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: pink;
 }
 
 .about {
