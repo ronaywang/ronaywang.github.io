@@ -30,28 +30,27 @@ html, body {
   margin: 0;
   /* overflow: hidden; */
   font-family: 'Sen', sans-serif;
+  color: var(--neutral1);
 }
 
 body {
   overflow-x: hidden;
 }
 
-.container {
-  height: 100%;
-  overflow: hidden;
+a {
+  font-family: 'Sen', sans-serif;
+  text-decoration: none;
+  border-bottom: 1.5px var(--primary4) solid;
 }
-
-/*#fullscreen {
-  height: 100%;
-  width: 100%;
-}*/
-
+a:visited {
+  color: var(--neutral1);
+}
 
 h1 {
   font-family: 'Sen', sans-serif;
   font-weight: 500;
-  font-size: 120%;
-  color: var(--primary2);
+  font-size: 130%;
+  color: var(--primary4);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,7 +62,7 @@ h1 {
 }
 .logo {
   margin: 2rem;
-  font-size: 200%;
+  font-size: 140%;
 
   font-weight: 700;
 }
