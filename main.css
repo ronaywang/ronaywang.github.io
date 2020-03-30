@@ -57,9 +57,14 @@ h1 {
   justify-content: center;
 }
 
+.top-bar-container {
+  display: flex;
+  
+}
 .logo {
   margin: 2rem;
   font-size: 200%;
+
   font-weight: 700;
 }
 
