@@ -25,9 +25,8 @@ html {
 
 html, body {
   /* height: 100%; */
-  width: 100%;
   padding: 0;
-  margin: 0;
+  
   /* overflow: hidden; */
   font-family: 'Sen', sans-serif;
   color: var(--neutral1);
@@ -35,15 +34,19 @@ html, body {
 
 body {
   overflow-x: hidden;
+  margin: 3% 5%;
 }
 
 a {
   font-family: 'Sen', sans-serif;
   text-decoration: none;
-  border-bottom: 1.5px var(--primary4) solid;
+  border-bottom: 1.5px var(--primary5) solid;
 }
 a:visited {
   color: var(--neutral1);
+}
+a:hover{
+  color: var(--primary5);
 }
 
 h1 {
@@ -51,34 +54,28 @@ h1 {
   font-weight: 500;
   font-size: 130%;
   color: var(--primary4);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  
 }
 
 .top-bar-container {
   display: flex;
+  justify-content: space-between;
   
 }
 .logo {
-  margin: 2rem;
+  
   font-size: 140%;
 
   font-weight: 700;
 }
 
 .NavBar-link {
-  margin: 2rem;
-  font-size: 100%;
+  margin: 0px 10px;
   color: var(--primary4);
   font-weight: 500;
-  text-decoration: none;
+  border-bottom: 0px;
 }
 
-.NavBar-link:hover {
-  opacity: 0.7;
-
-}
 
 .NavBar{
   padding: 1%;
