@@ -1,9 +1,9 @@
 :root {
-  --primary1: #1D1D35;
-  --primary2: #222549;
-  --primary3: #3A3F78;
-  --primary4: #5053A7;
-  --primary5: #8385C3;
+  --primary1: #283413;
+  --primary2: #567029;
+  --primary3: #759938;
+  --primary4: #8FBA45;
+  --primary5: #BAD48C;
   --primary6: #C1C2E1;
   --primary7: #F1F1F9;
 
@@ -41,19 +41,20 @@ a {
   font-family: 'Sen', sans-serif;
   text-decoration: none;
   border-bottom: 1.5px var(--primary5) solid;
+  color: var(--neutral1);
 }
 a:visited {
   color: var(--neutral1);
 }
 a:hover{
-  color: var(--primary5);
+  color: var(--primary4);
 }
 
 h1 {
   font-family: 'Sen', sans-serif;
   font-weight: 500;
   font-size: 130%;
-  color: var(--primary4);
+  color: var(--primary3);
   
 }
 
@@ -64,7 +65,7 @@ h1 {
 }
 .logo {
   
-  font-size: 140%;
+  font-size: 160%;
 
   font-weight: 700;
 }
