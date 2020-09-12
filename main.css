@@ -58,6 +58,10 @@ h1 {
   
 }
 
+ul {
+  list-style-type: circle;
+}
+
 .top-bar-container {
   display: flex;
   justify-content: space-between;
