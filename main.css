@@ -28,17 +28,16 @@ html, body {
   padding: 0;
   
   /* overflow: hidden; */
-  font-family: 'Sen', sans-serif;
+  font-family: 'Lora', serif;
   color: var(--neutral1);
 }
 
 body {
   overflow-x: hidden;
-  margin: 3% 7%;
+  margin: 3% 20%;
 }
 
 a {
-  font-family: 'Sen', sans-serif;
   text-decoration: none;
   border-bottom: 2px var(--primary5) solid;
   color: var(--neutral1);
@@ -51,7 +50,6 @@ a:hover{
 }
 
 h1 {
-  font-family: 'Sen', sans-serif;
   font-weight: 500;
   font-size: 130%;
   color: var(--primary3);
@@ -88,7 +86,7 @@ img {
 
 
 .NavBar{
-  padding: 1%;
+  padding: 1% 1% 5% 1%;
   display: flex;
   justify-content: flex-end;
 }
