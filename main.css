@@ -79,7 +79,7 @@ img {
 
 .NavBar-link {
   margin: 0px 10px;
-  color: var(--primary4);
+  color: var(--neutral1);
   font-weight: 500;
   border-bottom: 0px;
 }
