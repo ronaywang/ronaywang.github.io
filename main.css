@@ -28,13 +28,14 @@ html, body {
   padding: 0;
   
   /* overflow: hidden; */
-  font-family: 'Lora', serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   color: var(--neutral1);
 }
 
 body {
   overflow-x: hidden;
   margin: 3% 20%;
+  font-weight: 300;
 }
 
 a {
@@ -56,12 +57,9 @@ h1 {
   
 }
 
-
-
 img {
   margin: 5px 0px;
 }
-
 
 .top-bar-container {
   display: flex;
@@ -69,8 +67,8 @@ img {
   
 }
 .logo {
-  
-  font-size: 180%;
+  font-family: 'Zen Loop', cursive;
+  font-size: 240%;
 
   font-weight: 700;
 }
