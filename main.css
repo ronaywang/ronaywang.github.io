@@ -48,6 +48,8 @@ a:visited {
 }
 a:hover{
   background-color: var(--primary5);
+  position: relative; 
+  top: -2px;
 
 }
 
