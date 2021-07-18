@@ -40,14 +40,15 @@ body {
 
 a {
   text-decoration: none;
-  border-bottom: 2px var(--primary5) solid;
+  border-bottom: 3px var(--primary5) solid;
   color: var(--neutral1);
 }
 a:visited {
   color: var(--neutral1);
 }
 a:hover{
-  color: var(--primary4);
+  background-color: var(--primary5);
+
 }
 
 h1 {
@@ -78,6 +79,10 @@ img {
   color: var(--neutral1);
   font-weight: 600;
   border-bottom: 0px;
+}
+.NavBar-link:hover {
+  background-color: white;
+  color: var(--primary5)
 }
 
 
