@@ -38,6 +38,9 @@ body {
   font-weight: 300;
 }
 
+cursor {
+  color: pink;
+}
 a {
   text-decoration: none;
   border-bottom: 3px var(--primary5) solid;
@@ -95,7 +98,7 @@ img {
 }
 
 ul li {
-  padding: 1.5px 0px;
+  padding: 2px 0px;
   list-style-type: circle;
 }
 
