@@ -76,6 +76,7 @@ img {
 .logo {
   font-family: 'Zen Loop', cursive;
   font-size: 290%;
+  color: var(--primary5);
 
   font-weight: 700;
 }
