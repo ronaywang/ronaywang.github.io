@@ -29,7 +29,7 @@ html, body {
   
   /* overflow: hidden; */
   font-family: 'M PLUS Rounded 1c', sans-serif;
-  font-size: 100%;
+  font-size: 110%;
   color: var(--neutral1);
 }
 
@@ -99,7 +99,7 @@ img {
 }
 
 ul li {
-  padding: 2px 0px;
+  padding: 3px 0px;
   list-style-type: circle;
 }
 
