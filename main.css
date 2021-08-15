@@ -29,6 +29,7 @@ html, body {
   
   /* overflow: hidden; */
   font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 120%;
   color: var(--neutral1);
 }
 
