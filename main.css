@@ -44,14 +44,14 @@ cursor {
 }
 a {
   text-decoration: none;
-  border-bottom: 3px var(--primary5) solid;
+  border-bottom: 3px var(--primary6) solid;
   color: var(--neutral1);
 }
 a:visited {
   color: var(--neutral1);
 }
 a:hover{
-  background-color: var(--primary5);
+  background-color: var(--primary6);
   position: relative; 
   top: -2px;
 
@@ -60,7 +60,7 @@ a:hover{
 h1 {
   font-weight: 600;
   font-size: 150%;
-  color: var(--primary3);
+  color: var(--primary5);
   
 }
 
@@ -75,7 +75,7 @@ img {
 }
 .logo {
   font-family: 'Zen Loop', cursive;
-  font-size: 240%;
+  font-size: 290%;
 
   font-weight: 700;
 }
