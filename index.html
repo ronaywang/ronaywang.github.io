@@ -4,15 +4,41 @@
 
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="normalize.css">
+    <!--<link rel="stylesheet" href="normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css">-->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"/>
+<style>
+  :root {
+     --size: 1.3;
+     --cursor-line: 0.5;
+    --background: #ddd3e6;
+    --color: #21013d;
+  }
+  </style>
     <title>rona.</title>
   </head>
 
   <body>
+    <script>
+$('body').terminal({
+    explore: function() {
+        this.echo('Here are the following commands you can write: \n about \n currently');
+    },
+    about: function() {
+      this.echo("I double-major in mathematics and computer science at MIT. In the past, I've worked at Kensho and Microsoft.");
+    },
+    currently: function() {
+      this.echo("Finishing up my final semester of college!");
+    }
+}, {
+    greetings: "Welcome to Rona Wang's interactive website! Type 'explore' to investigate. \nWith thanks to my friend Linda Tong for inspiring the interactive web terminal :)"
+});
+</script>
     <div class = "top-bar-container">
     <div class = "logo">
       rona wang.
@@ -27,7 +53,7 @@
   I'm an undergraduate at the Massachusetts Institute of Technology double-majoring in computer science and mathematics. 
   I don't intend on actively updating this website with what I'm up to, but you can check my 
   <a href="https://twitter.com/ronawang">Twitter</a> or <a href="https://www.linkedin.com/in/returnonnetassets">LinkedIn</a> 
-  for more information. I'm also an admissions blogger <a href="https://mitadmissions.org/blogs/author/rona/">here</a>.
+  for more information.
   
 </div>
 
