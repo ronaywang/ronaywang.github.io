@@ -27,7 +27,7 @@
     <script>
 $('body').terminal({
     explore: function() {
-        this.echo('some suggested commands: \n about \n current \n contact');
+        this.echo('some suggested commands: \n about \n current \n email \n twitter');
     },
     about: function() {
       this.echo(" I double-major in mathematics and computer science at MIT. \n I've been a software engineering intern at Kensho and Microsoft. Currently, I'm part of the Neo Scholar network. \n Fun fact: my Erdös number is 2.");
@@ -35,8 +35,19 @@ $('body').terminal({
     current: function() {
       this.echo(" Finishing up my final semester of undergrad!");
     },
-    contact: function() {
-      this.echo(" Email: rona (at) mit (dot) edu \n Twitter: @ronawang");
+    twitter: function() {
+      const twitter = $('<a>',{
+    text:'@ronawang',
+    href:'https://twitter.com/ronawang'
+});
+      this.echo(twitter);
+    },
+    email: function() {
+      const email = $('<a>',{
+    text:'rona@mit.edu',
+    href:'mailto:rona@mit.edu'
+});
+      this.echo(email);
     }
 }, {
     greetings: "Welcome to Rona Wang's interactive website! Type 'explore' to investigate. \nWith thanks to my friend Linda Tong for inspiring the interactive web terminal :)"
