@@ -27,13 +27,13 @@
     <script>
 $('body').terminal({
     explore: function() {
-        this.echo(' some suggested commands:\n\tabout\n\tcurrent\n\temail\n\ttwitter\n\tsubstack');
+        this.echo(' some suggested commands:\n\tabout\n\tcurrent\n\temail\n\ttwitter\n\tsubstack\n\tsecret\n hint: there are more commands. feel free to try other keywords!');
     },
     about: function() {
       this.echo(" I double-major in mathematics and computer science at MIT. \n I've been a software engineering intern at Kensho and Microsoft. I'm also part of the Neo Scholar network. \n Fun fact: my Erdös number is 2.");
     },
     current: function() {
-      this.echo(" Finishing up my final semester of undergrad!");
+      this.echo(" Located in Cambridge, MA finishing up my final semester of undergrad!");
     },
     twitter: function() {
       const twitter = $('<a>',{
@@ -55,7 +55,39 @@ $('body').terminal({
     href:'https://rona.substack.com'
 });
       this.echo(substack);
-    }
+    },
+    secret: function() {
+      window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+    },
+    pikachu: function() {
+      window.location.href = "https://www.youtube.com/watch?v=ycdcDFuGarM";
+    },
+    money: function() {
+      this.echo(" venmo ~worstinstituteoftechnology");
+    },
+    hi: function() {
+      this.echo(" lo");
+    },
+    hello: function() {
+      this.echo(" world");
+    },
+    goodnight: function() {
+      this.echo(" moon");
+    },
+    rizz: function() {
+      this.echo(" ( ͡° ͜ʖ ͡°)");
+    },
+    shrug: function() {
+      this.echo(" ¯\\_(ツ)_/¯");
+    },
+    owo: function() {
+      this.echo(" 。◕‿‿◕。");
+    },
+    uwu: function() {
+      this.echo(" ( ᴗ ̫ ᴗ )");
+    },
+
+
 }, {
     greetings: "Welcome to Rona Wang's interactive website! Type 'explore' to investigate. \nWith thanks to my friend Linda Tong for inspiring the interactive web terminal :)"
 });
