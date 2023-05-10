@@ -1,0 +1,83 @@
+@import  url("https://fonts.googleapis.com/css?family=Fira+Mono");
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200vh;
+  font-family: "Fira Mono Bold", monospace;
+  background: #ddd3e6;
+  color: #21013d;
+}
+
+.text-input{
+    font-family: "Fira Mono Bold", monospace;
+  
+    position: relative;
+    margin-top: 50px;
+  
+  input[type="text"]{
+    font-family: "Fira Mono Bold", monospace;
+    display: inline-block;
+    width: 500px;
+    height: 50px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 10px 10px 10px 100px;
+    transition: all 0.1s ease-out;
+  }
+  
+  input[type="text"] + label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    border-radius: 3px 0 0 3px;
+    padding: 0 25px;
+    background: #21013d;
+    transform: translateZ(0) translateX(0);
+    transition: all 0.3s ease-in;
+    transition-delay: 0.2s;
+  }
+  
+  input[type="text"]:focus + label{
+    transform: translateY(-120%) translateX(0%);
+    border-radius: 3px;
+    transition: all 0.1s ease-out;
+  }
+  
+  input[type="text"]:focus{
+    padding: 10px;
+    transition: all 0.3s ease-out;
+    transition-delay: 0.2s;
+  }
+}
+.cell {
+  border:#21013d solid;
+  border-width: 3px;
+
+  font-size: 40px;
+  padding: 5px;
+  margin: 7px;
+  width: 50px;
+  display: flex;
+  justify-content: center
+
+}
+.cell:hover{
+  background: #21013d ;
+  color: #ddd3e6;
+  cursor: pointer;
+}
+.row {
+  padding: 10px;
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+}
