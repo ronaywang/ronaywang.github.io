@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/septogram/static/css/main.13e433de.css",
+    "main.js": "/septogram/static/js/main.0bfe17bd.js",
+    "static/js/787.28cb0dcd.chunk.js": "/septogram/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.svg": "/septogram/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/septogram/index.html",
+    "main.13e433de.css.map": "/septogram/static/css/main.13e433de.css.map",
+    "main.0bfe17bd.js.map": "/septogram/static/js/main.0bfe17bd.js.map",
+    "787.28cb0dcd.chunk.js.map": "/septogram/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13e433de.css",
+    "static/js/main.0bfe17bd.js"
+  ]
+}
