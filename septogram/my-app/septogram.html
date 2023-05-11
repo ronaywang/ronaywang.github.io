@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Text Adventure Game</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="septogram.css"/>
+	<style>
+		
+        
+	</style>
+</head>
+<body>
+	<h1>SEPTOGRAM</h1>
+	<p>Made in honor of Jack Lance, the creator of <a href = "https://jacklance.github.io/octogram">Octogram</a>.</p>
+	
+	<script>
+		window.onload = function(){
+        var start = prompt("What's your name?");
+        var lengthOfName = name.length
+
+        document.getElementById('output').innerHTML = lengthOfName;
+};
+	</script>
+    <div class="text-input">
+        <input type="text" id="input1" placeholder="Submit a guess based on the clue.">
+        <label for="input1">Name</label>
+      </div>
+      <script>
+		function greetUser() {
+			// Get the value of the input field
+			var name = document.getElementById("nameInput").value;
+			// Check if the input field is empty
+			if (name === "") {
+				alert("Please enter your name.");
+			} else {
+				// Display a greeting message with the user's name
+				var greeting = document.getElementById("greeting");
+				greeting.innerHTML = "Hello, " + name + "!";
+			}
+		}
+	</script>
+</body>
+
+</html>
