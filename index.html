@@ -27,7 +27,7 @@
     <script>
 $('body').terminal({
     explore: function() {
-        this.echo(' some suggested commands:\n\tabout\n\tcurrent\n\temail\n\ttwitter\n\tsubstack\n\tsecret\n hint: there are more commands. feel free to try other keywords!');
+        this.echo(' some suggested commands:\n\tabout\n\tcurrent\n\temail\n\ttwitter\n\tsubstack\n\tsecret\n\tgames\n hint: there are more commands. feel free to try other keywords!');
     },
     about: function() {
       this.echo(" I double-major in mathematics and computer science at MIT. \n I've been a software engineering intern at Kensho and Microsoft. I'm also part of the Neo Scholar network. \n Fun fact: my Erdös number is 2.");
@@ -61,6 +61,16 @@ $('body').terminal({
     },
     pikachu: function() {
       window.location.href = "https://www.youtube.com/watch?v=ycdcDFuGarM";
+    },
+    games: function() {
+      this.echo(" colour");
+      this.echo(" septogram");
+    },
+    colour: function() {
+      window.location.href = "https://rona.wang/colour/";
+    },
+    septogram: function() {
+      this.echo(" coming soon");
     },
     money: function() {
       this.echo(" venmo ~worstinstituteoftechnology");
